@@ -270,6 +270,19 @@ main {
   text-transform: uppercase;
 }
 
+/* footer attribution (Flaticon) */
+.footer-credits {
+  max-width: 1200px;
+  margin: -6px auto 0;
+  padding: 0 40px 18px;
+  text-align: left;
+}
+
+.footer-credits a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .footer-bottom-links {
   display: flex;
   gap: 28px;

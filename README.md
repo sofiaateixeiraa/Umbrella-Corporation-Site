@@ -9,6 +9,10 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/license-All%20Rights%20Reserved-red" alt="License" />
+</p>
+
 > Practical Assignment 1 for the _Client-Side Web Programming_ course unit of the Software Development CTeSP at ISTEC Porto (academic year 2025/2026). Developed as a group project. Unofficial, non-commercial fan work, not affiliated with Capcom (see [Disclaimer](#disclaimer)).
 
 ## Screenshots
