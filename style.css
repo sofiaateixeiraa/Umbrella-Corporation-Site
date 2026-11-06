@@ -98,7 +98,6 @@ main {
   width: 36px;
   height: 36px;
   object-fit: contain;
-  animation: rotate-slow 12s linear infinite;
 }
 
 @keyframes rotate-slow {
@@ -383,6 +382,17 @@ main {
   color: var(--red);
 }
 
+.corp-logo-inline {
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  vertical-align: middle;
+  margin-bottom: 0.1em;
+  object-fit: contain;
+  animation: rotate-slow 12s linear infinite;
+  filter: drop-shadow(0 0 6px rgba(204, 0, 0, 0.6));
+}
+
 .hero-sub {
   font-family: var(--font-head);
   font-size: clamp(14px, 2.5vw, 22px);
@@ -556,8 +566,8 @@ main {
 }
 
 .division-icon {
-  width: 56px;
-  height: 56px;
+  width: 68px;
+  height: 68px;
   background: rgba(204, 0, 0, 0.15);
   border: 1px solid var(--red-dark);
   display: flex;
@@ -567,14 +577,10 @@ main {
   margin-bottom: 8px;
 }
 
-.division-icon svg {
-  width: 22px;
-  height: 22px;
-  stroke: var(--red);
-  fill: none;
-  stroke-width: 1.5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+.division-icon-img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
 }
 
 .division-access {
@@ -752,12 +758,11 @@ main {
 }
 
 .join-logo {
-  width: 64px;
-  height: 64px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
   margin: 0 auto 32px;
   display: block;
-  animation: rotate-slow 12s linear infinite;
   filter: drop-shadow(0 0 12px rgba(204, 0, 0, 0.5));
 }
 
@@ -1849,7 +1854,9 @@ main {
   font-family: var(--font-mono);
   font-size: 13px;
   padding: 13px 16px;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
   outline: none;
   width: 100%;
   letter-spacing: 0.05em;
@@ -2008,7 +2015,11 @@ main {
 }
 
 .contact-warning-box {
-  background: linear-gradient(135deg, rgba(136, 0, 0, 0.15) 0%, rgba(5, 5, 5, 0) 70%);
+  background: linear-gradient(
+    135deg,
+    rgba(136, 0, 0, 0.15) 0%,
+    rgba(5, 5, 5, 0) 70%
+  );
   border: 1px solid var(--red-dark);
   padding: 28px 32px;
 }

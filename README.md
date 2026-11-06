@@ -1,12 +1,41 @@
-# Umbrella Corporation Fictional Site
+<h1 align="center">Umbrella Corporation Fictional Site</h1>
 
-A fictional corporate website inspired by the *Resident Evil* universe.
+<p align="center">
+  A fictional corporate website inspired by the <em>Resident Evil</em> universe.
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
+</p>
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+> Practical Assignment 1 for the _Client-Side Web Programming_ course unit of the Software Development CTeSP at ISTEC Porto (academic year 2025/2026). Developed as a group project.
 
-> Practical Assignment 1 for the *Client-Side Web Programming* course unit of the Software Development CTeSP at ISTEC Porto (academic year 2025/2026). Developed as a group project.  
+## Screenshots
+
+<table align="center">
+   <tr>
+      <td align="center"><img src="docs/screenshots/index.png" width="300px" alt="Home page" /></td>
+      <td align="center"><img src="docs/screenshots/sobre.png" width="300px" alt="About Page" /></td>
+   </tr>
+   <tr>
+      <td align="center"><sub>Home</sub></td>
+      <td align="center"><sub>About</sub></td>
+   </tr>
+</table>
+
+<table align="center">
+   <tr>
+      <td align="center"><img src="docs/screenshots/equipa.png" width="300px" alt="Team Page" /></td>
+      <td align="center"><img src="docs/screenshots/projetos.png" width="300px" alt="Projects Page" /></td>
+      <td align="center"><img src="docs/screenshots/contacto.png" width="300px" alt="Contact Page" /></td>
+   </tr>
+   <tr>
+      <td align="center"><sub>Team</sub></td>
+      <td align="center"><sub>Projects</sub></td>
+      <td align="center"><sub>Contact</sub></td>
+   </tr>
+</table>
 
 ## Features
 
@@ -18,22 +47,22 @@ A fictional corporate website inspired by the *Resident Evil* universe.
 
 ## Pages
 
-| Page | Description |
-| --- | --- |
-| `index.html` | Home page with company statistics, divisions, and a recruitment call to action |
-| `sobre.html` | Company identity, mission, and values |
-| `equipa.html` | Leadership, employees, access levels, and operational divisions |
-| `projetos.html` | Research programmes, project statuses, and authorization levels |
-| `contacto.html` | Contact form with validation |
+| Page            | Description                                                                    |
+| --------------- | ------------------------------------------------------------------------------ |
+| `index.html`    | Home page with company statistics, divisions, and a recruitment call to action |
+| `sobre.html`    | Company identity, mission, and values                                          |
+| `equipa.html`   | Leadership, employees, access levels, and operational divisions                |
+| `projetos.html` | Research programmes, project statuses, and authorization levels                |
+| `contacto.html` | Contact form with validation                                                   |
 
 ## Tech stack
 
-| Area | Technology |
-| --- | --- |
-| Structure | HTML5 |
-| Styling | CSS3 |
-| Form validation | JavaScript |
-| Fonts | [Google Fonts](https://fonts.google.com/): Orbitron, Share Tech Mono, and Rajdhani |
+| Area            | Technology                                                                         |
+| --------------- | ---------------------------------------------------------------------------------- |
+| Structure       | HTML5                                                                              |
+| Styling         | CSS3                                                                               |
+| Form validation | JavaScript                                                                         |
+| Fonts           | [Google Fonts](https://fonts.google.com/): Orbitron, Share Tech Mono, and Rajdhani |
 
 ## Project structure
 
@@ -44,8 +73,11 @@ umbrella-corp/
 ├── equipa.html      # Team and organization
 ├── projetos.html    # Research programmes
 ├── contacto.html    # Contact form
+├── contacto.js      # Contact form validation
 ├── style.css        # Shared stylesheet
-└── images/          # Website images
+├── images/          # Website images
+└── docs/
+    └── screenshots/ # README screenshots
 ```
 
 ## Getting started
@@ -67,15 +99,23 @@ umbrella-corp/
 
 ## Team
 
-| Name | Responsibilities |
-| --- | --- |
-| Sofia Teixeira | `equipa.html`, `projetos.html` |
-| Gonçalo Pereira | `sobre.html`, `contacto.html` |
-| Both | `index.html`, `style.css` |
+| Name            | Responsibilities               |
+| --------------- | ------------------------------ |
+| Sofia Teixeira  | `equipa.html`, `projetos.html` |
+| Gonçalo Pereira | `sobre.html`, `contacto.html`  |
+| Both            | `index.html`, `style.css`      |
 
 ## Acknowledgements
 
 - [Google Fonts](https://fonts.google.com/) for the Orbitron, Share Tech Mono, and Rajdhani typefaces.
-- [Resident Evil Wiki](https://residentevil.fandom.com/wiki/Resident_Evil_Wiki) for external project references.
+- [Resident Evil Wiki](https://residentevil.fandom.com/wiki/Resident_Evil_Wiki) for external project references and some of the images in `images/`.
+- [Unsplash](https://unsplash.com/) for photographs in `images/`, used under the [Unsplash License](https://unsplash.com/license).
+- [Flaticon](https://www.flaticon.com/) for icons in `images/`, used under the [Flaticon license](https://www.flaticon.com/legal), with attribution to the respective authors.
 
-This is an unofficial academic project inspired by the *Resident Evil* universe. It is not affiliated with or endorsed by Capcom.
+## License
+
+The source code of this project was written for a course assignment; all rights reserved by the authors. Third-party assets (images, icons, fonts, trademarks) belong to their respective owners and are subject to their own licenses.
+
+## Disclaimer
+
+_Resident Evil_, Umbrella Corporation, and related names, logos, and imagery are trademarks and/or copyrighted works of Capcom Co., Ltd. This project is an unofficial, non-commercial fan work made for educational purposes only. It is not affiliated with, sponsored by, or endorsed by Capcom.
