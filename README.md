@@ -15,6 +15,8 @@
 
 > Practical Assignment 1 for the _Client-Side Web Programming_ course unit of the Software Development CTeSP at ISTEC Porto (academic year 2025/2026). Developed as a group project. Unofficial, non-commercial fan work, not affiliated with Capcom (see [Disclaimer](#disclaimer)).
 
+**Live site:** https://sofiaateixeiraa.github.io/Umbrella-Corporation-Site/
+
 ## Screenshots
 
 <table align="center">
@@ -86,11 +88,17 @@ umbrella-corp/
 
 ## Getting started
 
-### Prerequisites
+### Live site
+
+The site is published with GitHub Pages: https://sofiaateixeiraa.github.io/Umbrella-Corporation-Site/
+
+### Run locally
+
+#### Prerequisites
 
 - A modern web browser
 
-### Setup
+#### Setup
 
 1. Clone the repository:
 
